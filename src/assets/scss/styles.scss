@@ -1,0 +1,10 @@
+// Declared variablble
+@use 'foundation/value' as *;
+
+
+// Foundation 
+@import "foundation/reset.scss";
+@import "foundation/value.scss";
+
+// Components
+@import "components/header.scss";
