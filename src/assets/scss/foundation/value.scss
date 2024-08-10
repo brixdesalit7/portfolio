@@ -1,2 +1,18 @@
+// Font Family
 $font-poppins : "Poppins", sans-serif;
 $font-default : $font-poppins;
+
+// For PC
+$pc-layout-width: 1100;
+$pc-window-gap: 4rem;
+$pc-min-width: calc(#{$pc-layout-width}px + #{$pc-window-gap * 2});
+
+//For SP
+$sp-width: 375;
+$sp-width-breakpoint: $sp-width * 2;
+$sp-window-gap: 1.5rem;
+
+
+// Colors
+$color-text : #333;
+$color-link : #333;

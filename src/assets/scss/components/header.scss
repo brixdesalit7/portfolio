@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+
+    @include mq_sp {
+        display: none;
+    }
+
+    &__logo {
+        font-size: 25px;
+    }
+
+    &__nav {
+        &__ul {
+            display: inline-flex;
+            gap: 40px;
+            font-size: 22px;
+            margin-right: 50px;
+
+            &__li {
+                &__a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
